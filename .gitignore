@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.venv/
+.uv-cache/
+pip-*/
+*.egg-info/
+.pytest_cache/
+.pytest-tmp/
+pytest-of-*/
+tmproot-*/
+tmprun-*/
+
+# Local configuration and runtime data
+.env
+.env.*
+!.env.example
+data/
+files/
+wecom-verify/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.log
+
+# Build output
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Local tools / harness artifacts
+.tools/
+.dws/
+.dws-im-downloads/
+.dsh-office-*/
+.tmp/
+.tmp-*/
+.uv-cache/
+*.tsbuildinfo
+
+# Private project evidence
+# README uses sanitized screenshots from docs/readme/.
+docs/*
+!docs/readme/
+!docs/readme/**
+
+# Local competition / demo generation scripts
+scripts/build_ai_dialog_archive.py
+scripts/build_demo_timeline.py
+scripts/build_recorded_narration.py
+scripts/build_submission_docs.py
+scripts/build_submission_kit.py
+scripts/make_auto_reply_flow.py
+scripts/make_demo_file.py
+scripts/make_demo_narration*.ps1
+scripts/make_flowcharts.py
+scripts/record_demo.mjs
+scripts/restart_apipost_debug.ps1
+scripts/screenshot*.mjs
+scripts/ui-*.mjs
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

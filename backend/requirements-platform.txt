@@ -1,0 +1,5 @@
+# Optional: only needed when ENABLE_REAL_CHANNELS=true.
+# The default demo runs entirely in mock mode without these packages.
+lark-oapi==1.7.3
+dingtalk-stream>=0.24.3
+wecom-aibot-sdk>=1.0.8

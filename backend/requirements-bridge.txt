@@ -1,0 +1,5 @@
+# Optional transport integration. The app deliberately keeps the bridge behind a
+# transport interface: its 0.1.0 channel implementations do not expose reply
+# primitives, task events, or the raw file metadata this product needs.
+# Install only if you explicitly want to experiment with BRIDGE_ENABLED=true.
+harness-im-bridge>=0.1.0
